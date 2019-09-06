@@ -1,4 +1,4 @@
-# Built application files
+set path=C:\Users\Windows oficial\Desktop\ADS023\node_modules\.bin;%path%# Built application files
 *.apk
 *.ap_
 
@@ -63,3 +63,4 @@ fastlane/Preview.html
 fastlane/screenshots
 fastlane/test_output
 fastlane/readme.md
+node_modules

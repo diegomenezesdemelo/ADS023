@@ -1,0 +1,7 @@
+Instalando IONIC
+No Terminal CMD Dentro do VisualStudioCode Configure para abrir pelo cmd
+npm install ionic
+Sendo administrador da maquina 
+npm install -g ionic
+Não sendo administrador da maquina 
+set path=C:\Users\Windows oficial\Desktop\ADS023\node_modules\.bin;%path%
