@@ -1,0 +1,18 @@
+Atividdade03 
+
+Instale os plugins Auto Import, Ionic 4 Snippets e Angular Snippets (Version 8)
+
+para criar projeto
+ionic start Atividade03 blank
+
+para execultar no navegador 
+ionic serve 
+
+para execultar no navegador e criar as 2 plataformas IOS E Android! 
+ionic serve --lab 
+
+Para Gerar uma pagina 
+
+ionic genarate 
+defina o tipo page
+e um nome exemplo : notas para acessa http://localhost:8100/notas
