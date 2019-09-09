@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>notas</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <p>Suas notas</p>
+  <ion-grid>
+    <ion-row *ngFor="let nota of notas">
+      <ion-col>{{ nota.disciplina }} </ion-col>
+      <ion-col>{{ nota.a1 }} </ion-col>
+      <ion-col>{{ nota.a2 }} </ion-col>
+      <ion-col>{{ nota.a3 }} </ion-col>
+      <ion-col>{{ nota.edad }} </ion-col>
+      <ion-col>{{ nota.media }} </ion-col>
+    </ion-row>
+  </ion-grid>
+    <ion-row>
+      <ion-col>Disciplina</ion-col>
+      <ion-col>A1</ion-col>
+      <ion-col>A2</ion-col>
+      <ion-col>A3</ion-col>
+      <ion-col>EDAD</ion-col>
+      <ion-col>Média</ion-col>
+    </ion-row>
+  
+  <ion-row>
+    <ion-col>ADS023 - Programação para Dispositivos Móveis</ion-col>
+    <ion-col>5,0</ion-col>
+    <ion-col>-</ion-col>
+    <ion-col>5,0</ion-col>
+    <ion-col>0,0</ion-col>
+    <ion-col>5,0</ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col>RCT024 - Gerência de Projetos</ion-col>
+    <ion-col>4,0</ion-col>
+    <ion-col>6,0</ion-col>
+    <ion-col>-</ion-col>
+    <ion-col>10,0</ion-col>
+    <ion-col>5,0</ion-col>
+  </ion-row>
+</ion-content>
