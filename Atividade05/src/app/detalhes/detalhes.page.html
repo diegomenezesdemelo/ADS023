@@ -1,19 +1,13 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
+    <ion-title>detalhes</ion-title>
   </ion-toolbar>
 </ion-header>
-
 <ion-content>
   <ion-button [routerLink]="['/home']">Entrar Home</ion-button>
   <ion-button [routerLink]="['/detalhes/42']">Detalhes</ion-button>
   <ion-button [routerLink]="['/login']">Sair</ion-button>
-  <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be
-      your guide.</p>
-  </div>
-
+  <ion-label>
+      <p>{{id}}</p>
+  </ion-label>
 </ion-content>

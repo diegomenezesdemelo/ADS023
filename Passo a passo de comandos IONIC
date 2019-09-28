@@ -16,3 +16,18 @@ Para Gerar uma pagina
 ionic genarate 
 defina o tipo page
 e um nome exemplo : notas para acessa http://localhost:8100/notas
+
+Criando Serviço de autenticação
+ionic generate service auth
+
+Criando "guarda" 
+
+ionic generate guard auth 
+
+Para gerar o pacote dentro da pasta 
+
+ionic build
+
+Para modificar o pacote 
+ 
+ionic capacitor add android 
